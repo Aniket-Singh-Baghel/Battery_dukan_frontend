@@ -1,0 +1,358 @@
+.mainDiv{
+    background-image: url("../../../../Assets/drawable-xxxhdpi/rectangle.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px 10px;
+}
+
+.nav{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+
+.nav>img{
+    width: 10px;
+    margin-right: 15px;
+}
+
+.nav>h6{
+    font-family: "SFProDisplay-Regular";
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    color: #ffffff;
+    letter-spacing: 0.02px;
+    font-weight: 500;
+}
+
+
+
+.card{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-shadow: 0 1px 3px 0 #290000fa;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-left: 30px solid #e53484;
+    border-top: 30px solid #faaf1e;
+    border-bottom: 30px solid #749a2d;
+    border-right: 30px solid #1f8cb5;
+    border-radius: 50%;
+    font-family: "SFProDisplay-Bold";
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle>div{
+    height: 1px;
+    background-color: #6e6e8a;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.circle>h6{
+    margin-bottom: 10px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color:  #6e6e8a;
+}
+
+
+
+.col{
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col>div{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.col>div:last-child{
+    margin: 0;
+}
+
+.elem1, .elem2{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+    color: #505050;
+}
+
+.elem2{
+    font-size: 12px;
+    line-height: 12px;
+    color: #6e6e8a;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#f{
+    background-color: #c20057;
+}
+
+#s{
+    background-color: #ff8000;
+}
+
+#t{
+    background-color: #487000;
+}
+
+#fo{
+    background-color: #0074a1;
+}
+
+.btm{
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btm>h4 , .btm>button{
+    font-family: "SFProDisplay-Regular";
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+    color: #e74c3c;
+}
+
+.btm>button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 15px;
+    border-radius: 100px;
+    background-color: #0ed06d;
+    color: #ffffff;
+}
+
+.btm>button>img{
+    margin-left: 5px;
+    width: 5px;
+    transform: rotate(-180deg);
+}
+
+.bgn{
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-image: url("../../../../Assets/drawable-xxxhdpi/group_2635.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hed{
+    font-family: "SFProDisplay-Bold";
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.ico>div img{
+    width: 40px;
+}
+
+.ico{
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ico>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ico>div h4{
+    margin-top: 7px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffffad;
+}
+
+.btmbck{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 -1px 3px 0  #290000;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 6px;
+}
+.head img{
+    margin-left: 15px;
+    width: 14px;
+}
+
+.head h3,.header{
+    font-family: "SFProDisplay-Bold";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #000000;
+}   
+
+
+.btmCard{
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0  #290000b4;
+}
+
+.header{
+    font-family: "SFProDisplay-Medium";
+}
+
+.fstyle{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    color: #6e6e8a;
+    text-align: left;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sm{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.smdos{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ffc704;
+    margin-left: 5px;
+    box-shadow: 0 1px 2px 0 #290000ce;
+    margin-top: -3px;
+}
+
+.subdiv1{
+    margin-top: 10px;
+    background-color: #ffffffad;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.tdot {
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tdot span{
+    position:inherit;
+    z-index: 9;
+}
+
+.tdot >div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hrl{
+    width: 90%;
+    height: 1px;
+    background-color: #0000007e;
+}
+
+.cl{
+    background-color: #f64a4a;
+}
+
+.cl1{
+    background-color: #ffc704;
+}
+
+.cl2{
+    background-color: #0ed06d;
+}
+
+.bstyle{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    line-height: 14px;
+    color:  #000000;
+}
+
+#seconf, #seconfs{
+    margin-top: 7px;
+}
+
+#seconf div .fstyle, #seconfs div .fstyle {
+ text-align: center;
+}
+
+@media(min-width:720px){
+    .hrl{
+        width: 97%;
+    }
+}

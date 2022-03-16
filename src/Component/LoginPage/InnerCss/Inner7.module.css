@@ -1,0 +1,252 @@
+.mainDiv{
+    padding: 10px 10px;
+    width: 100%;
+    /* min-height: 100vh; */
+    height: 100vh;
+    background-image: url("../../../Assets/path_65.png");
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+
+nav{
+    padding: 10px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+nav>img{
+    margin-right: 20px;
+    width: 17px;
+}
+nav>h3{
+    font-weight: 500;
+    font-family: "SFProDisplay-Regular";
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 21px;
+    letter-spacing: 0.02px;
+    text-align: left;
+}
+
+
+main{
+    box-shadow: 0 1px 3px 0 #17000069;
+    /* min-height: 570px; */
+    height: 90vh;
+    padding: 15px 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-self: flex-start;
+}
+
+.one>img{
+    background-color: #efefef   ;
+    width: 67px;
+}
+
+.one1{
+    display: flex;
+    align-items: flex-start;
+    justify-self: flex-start;
+    flex-direction: column;
+    margin-left:30px ;
+}
+
+.one1>h3{
+    margin-bottom: 5px;
+    font-family: "SFProDisplay-Bold";
+    font-size: 16px;
+    text-align: left;
+    line-height: 19px;
+    letter-spacing: 0.03px;
+    color: #292929;
+    font-weight: 600;
+}
+.one1>h5{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02px;
+    text-align: left;
+    color: #6e6e8a;
+    margin-top: 2px;
+}
+
+.dash{
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+}
+
+.desc{
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px 10px;
+    background-color:  #f8f8f8;
+    display: flex;
+}
+
+.desc>.first{
+    width: 33.3%;
+    border-right: 1px solid #6e6e8a;
+}
+
+.first>h4{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02px;
+    text-align: center;
+    color: #6e6e8a;
+}
+
+.first>h5{
+    margin-top: 5px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03px;
+    text-align: center;
+}
+
+#t{
+    border-right: 0;
+
+}
+#t>h5{
+    color: #00d690;
+}
+
+.dets1{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.dets1>h2{
+    font-family: "SFProDisplay-Bold";
+    color: #292929;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03px;
+    text-align: left;
+}
+
+.dets1>p{
+    margin-top: 10px;
+    letter-spacing: 0.02px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #6e6e8a;
+    font-family: "SFProDisplay-Regular";
+}
+
+.dets1 > ul{
+    margin-top: 5px;
+}
+
+.dets1>ul li{
+    font-family: "SFProDisplay-Regular";
+    color:  #6e6e8a;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.recommendation{
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.recommendation>h3{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03px;
+    text-align: left;
+    color: #292929;    
+}
+
+.palletteDiv{
+    width: 100%;
+    padding: 5px 5px;
+    height: 15vh;
+    overflow:hidden ;
+    overflow-y: scroll;
+}
+
+.pallette{
+    margin-bottom: 10px;
+    border: 1px solid #efefef;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pallette>h4{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02px;
+    color: #000000;
+    text-align: left;
+    font-family: "SFProDisplay-Regular";
+}
+
+.pallette>p{
+    font-family: "SFProDisplay-Regular";
+    font-size: 12px;
+    letter-spacing: 0.02px;
+    text-align: left;
+    color: #6a35ff;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pallette>p>span>img{
+    width: 16px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+
+/* .pallette > ul{
+    margin-top: 5px;
+} */
+
+.pallette>ul li{
+    font-family: "SFProDisplay-Regular";
+    color:  #6e6e8a;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02px;
+    text-align: left;
+    margin-left: 12px;
+}
+
+#detsing{
+    margin-top: 0;
+    padding: 0;
+    display: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+@media (min-width:720px){
+    .palletteDiv{
+        height: 270px;
+    }
+
+    .palletteDiv::-webkit-scrollbar{
+        display: none;
+    }
+}

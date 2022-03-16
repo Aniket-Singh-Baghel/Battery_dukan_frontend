@@ -1,0 +1,133 @@
+.mainDiv{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #6a35ff, #0086ff, #00acff, #00ca9e, #00d690);
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+.cardHolder{
+    border: none !important;
+    padding: 25px 25px 0px 25px;
+    background-color: #ffff;
+    height: 500px;  
+    border-radius: 5px;
+    box-shadow: 0 5px 25px -10px black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow: auto;
+
+}
+
+.cardHolder::-webkit-scrollbar{
+    display: none;
+}
+
+.cardHolder h2{
+    border: none !important;
+    font-family: "SFProDisplay-Bold";
+    font-size: 28px;
+    letter-spacing: 0.02px;
+    color: #000000;
+    /* font-weight: 900px; */
+}
+
+.t1{
+    cursor: pointer;
+    min-width: 320px;
+    border :1px solid #d4d4d4;
+    font-family: "SFProDisplay-Regular";
+    font-size: 18px;
+    padding: 8px 15px;
+    color: #000000;
+    letter-spacing: 0.02px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+#one{
+    margin-top: 25px;
+}
+
+
+main{
+    position: relative;
+}
+
+
+.btn{
+    border: none !important;
+    position: fixed;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 15px;
+    color: #ffffff;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+}
+
+.btnInner{
+    border: none !important;
+    padding: 5px 15px;
+    font-size: 16px;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnInner div{
+    border: none !important;
+
+}
+
+
+
+#nextIco{
+    border: none !important;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../Assets/Icons/invalid_name.png');
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+@media (max-width:450px){
+    .mainDiv{
+        padding: 20px 20px;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardHolder{       
+        box-shadow: none;
+        padding: 0;
+    }
+
+
+    .btn{
+        bottom: 5%;
+    }
+
+}
+
+
+
+
+
+
+
+
+

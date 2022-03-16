@@ -1,0 +1,362 @@
+.mainDiv{
+    font-family:'SFProDisplay-Regular';
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f6f5f5;
+    background-image: url('../../../Assets/Group\ 6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+}
+
+.mainDiv nav{
+    padding:5px 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #737aa191;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+nav .icon img{
+    width: 25px;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav2 h3{
+    font-weight: 500;
+    letter-spacing: .2px;
+    color: #ffffff;
+    font-family: "SFProDisplay-Bold";
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.nav2 .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden; 
+}
+
+.nav2 .circle img{
+    width:45px ;
+}
+
+
+.smartSearch{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 55px;
+}
+
+.search{
+    width: 50%;
+    position: relative;
+}
+
+.search input{
+    font-family: "SFProDisplay-Light";
+    font-size: 16px;
+    border:none;
+    outline: none;
+    border-radius: 6px;
+    padding: 7px 20px;
+    width: 50%;
+    box-shadow: 0 2px 4px 0 #19000000;
+
+}
+
+.search input{
+    padding-left: 40px;
+}
+
+.search span img{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0,-50%);
+    width: 16px;
+}
+
+.navigation{
+    padding: 10px 20px;
+    width: 30%;
+    /* height: 30%; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.navigation .navchild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 120px;
+    box-shadow: 0 2px 4px 0 #19000000;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.navchild .img{
+    width: 80px;
+    height: 80px;
+}
+
+.smSearch h3{
+    font-family: "SFProDisplay-Bold";
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.02px;
+    color: #000000;
+}
+
+.smSearch p{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    letter-spacing: 0.01px;
+    color: #000000;
+    margin: 15px 0;
+}
+
+
+.smSearch .three{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.three div div:nth-child(1){
+    margin-left: 0px;
+}
+
+.three div div , .three div h4 {
+    margin-left: 10px;
+}
+
+.three div{
+    display: flex;
+    align-items: center;
+}
+
+.three div div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.same{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #00d690;  
+    color: #ffffff;  
+    font-size: 12px;
+    letter-spacing: 0.01px;
+    font-family: "SFProDisplay-Semibold";
+}
+
+.sameh{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #b2aaaa;
+    letter-spacing: 0.01px;
+    font-family: "SFProDisplay-Regular";
+}
+
+
+.arrow img{
+    width: 55px;
+}
+
+.arrangement{
+    padding: 10px 55px;
+    width: 100%;
+    min-height: 100px;
+
+}
+
+.arrangement h1{
+    text-align: center;
+    font-family: "SFProDisplay-Bold";
+    color: #ffffff;
+    letter-spacing: 0.02px;
+    font-size: 28px;
+}
+
+.one{
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+
+.one::-webkit-scrollbar{
+    height:1px;
+    background-color: #ffffff;
+}
+
+.one::-webkit-scrollbar-thumb{
+    height: 1px;
+    background-color: #6e6e6e;
+    border-radius: 100px;
+}
+
+.one h2{
+    color:#fff;
+    font-family: "SFProDisplay-Medium";
+    font-size: 22px;
+    letter-spacing: 0.02px;
+    width: 100%;
+}
+
+.card{
+    padding: 10px 0;
+    display: flex;
+    width:fit-content;
+    overflow-x: scroll;
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.card .cone{
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 20px;
+    padding:5px 0px;
+    min-height: 80px;
+    background-color: #fff;
+    min-width: 150px;
+    box-shadow: 0 2px 4px -2px #19000094;
+
+}
+
+.card img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.cone h3{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    font-family: "SFProDisplay-Regular";
+    color: #292929;
+    letter-spacing: 0.02;
+}
+
+.cone span{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: "SFProDisplay-Regular";
+    color: #494747;
+    letter-spacing: 0.02;
+    width: 100%;
+    display: inline-block;
+}
+
+#two{
+    color: #000000;
+}
+
+@media(max-width:450px){
+    
+    .smartSearch{
+        padding: 0 10px;
+        flex-direction: column;
+    }
+
+
+    .mainDiv nav{
+        height: 45px;
+    }
+
+    .mainDiv nav, .arrangement{
+        padding: 2px 10px;
+    }
+
+    .arrangement{
+        margin-top: 10px;
+    }
+
+    .arrangement h1{
+        font-size: 25px;
+    }
+
+    .search, .search input{
+        width: 100%;
+    }
+
+    .search input{
+        padding-top: 13px ;
+        padding-bottom: 13px ;
+    }
+
+    .navigation{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navigation .navchild{
+        height: 80px;
+    }
+
+    .navchild .img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .one{
+        margin-top: -10px;
+        padding: 0;
+    }
+    .card{
+        padding: 0;
+    }
+
+    .one h2{
+        font-size: 20px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: #000000;
+    }
+
+    .card .cone{
+        padding: 5px 0;
+        min-height: 120px;
+        min-width: 120px;
+        margin-right: 7px;
+    }
+
+    .cone img{
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    #two{
+        margin-top: 15px;
+    }
+
+}

@@ -1,0 +1,236 @@
+
+.mainDiv{
+    background-image: url("../../../../Assets/drawable-xxxhdpi/rectangle.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px 10px;
+}
+
+.nav{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+
+.nav>img{
+    width: 10px;
+    margin-right: 15px;
+}
+
+.nav>h6{
+    font-family: "SFProDisplay-Regular";
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    color: #ffffff;
+    letter-spacing: 0.02px;
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    height: 90vh;
+    overflow-y: scroll;  
+}
+
+
+.card .cardOne{
+    position: relative;
+}
+
+.card .cardOne span{
+    position: absolute;
+    width: 15px;
+    top: 13px;
+    left: 15px;
+}
+
+.card div:nth-child(1) input[type="text"]{
+    border-radius: 20px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01px;
+    text-align: left;
+    color: #e6e6fa;
+    padding: 12px 40px;
+    background-color: #dadaeea2;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+
+.sections{
+    margin-top: 5px;
+    border-bottom: 1px solid #e6e6fa;
+    justify-content: flex-start;
+    overflow: scroll;
+}
+
+.sections::-webkit-scrollbar{
+    display: none;
+}
+
+.sections h6{
+    margin-top: 10px;
+    margin-right: 35px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #6e6e8a;
+}
+
+.sections h6:nth-child(1){
+    border-bottom:2px solid #6a35ff ;
+}
+
+.cmpnySelected{
+    margin-top: 10px;
+}
+
+.cmpnySelected h5{
+    font-family:"SFProDisplay-Bold";
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+    color: #000000;
+}
+
+.card1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 8px 7px 5px 7px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: fit-content;
+    box-shadow: 0 1px 3px  0 #2900004f;
+}
+
+.one{
+    padding: 5px 0px;
+}
+
+.one>h5{
+    font-family: "SFProDisplay-Medium";
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+.card1 .one > span{
+    font-family: "SFProDisplay-Regular";
+    font-size: 10px;
+    line-height: 12px;
+    color: #6a35ff;
+    text-align: right;
+}
+
+.card1 .one > span img{
+    margin-left: 15px;
+    width: 16px;
+}
+
+.two{
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.two button{
+    padding: 5px 10px;
+    border-radius: 100px;
+    border:none;
+    outline: none;
+    background-color: #f1f0f0;
+}
+
+.two button{
+    color: #000000;
+}
+
+.two button , .two button h6{
+    font-family: "SFProDisplay-Regular";
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.two button h6{
+    margin-bottom: 2px;
+    color: #6e6e8a;
+}
+
+.two button:nth-child(2){
+    margin-left: 10px;
+}
+
+.two button:nth-child(2),.two button:nth-child(2) h6{
+    background-color: #6a35ff;
+    color: #ffffff;
+}
+
+.two button:nth-child(2) img{
+    width: 9px;
+    margin-left: 15px;
+}
+
+.detailHolder{
+    margin-top: 15px;
+}
+.head{
+    font-family: "SFProDisplay-Regular";
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+    color: #6e6e8a;
+    padding: 5px 10px;
+}
+
+.head2{
+    margin: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: #f8f8f8;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+}
+
+.stockC{
+    color: #2fd456;
+    text-align: left;
+}
+
+.stockCM{
+    text-align: left;
+    color: #f0333e;
+}
+
+@media (min-width:720px){
+    .card::-webkit-scrollbar{
+        width: 5px;
+        background-color: #e6c1c18c;
+        border-radius: 100px;
+    }
+    .card::-webkit-scrollbar-thumb{
+        background-color: #6e6e8a;
+    }
+}

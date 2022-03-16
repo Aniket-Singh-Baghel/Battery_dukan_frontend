@@ -1,0 +1,197 @@
+
+.mainDiv{
+    padding: 20px 0;
+    font-family:'SFProDisplay-Regular' ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../../Assets/drawable-xxxhdpi/rectangle.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mainDiv h2{
+    padding: 0 0 0 12px;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: left;
+    font-family: 'SFProDisplay-Bold';
+    font-size: 24px;
+    letter-spacing:0.02px;
+    color: #ffffff;
+}
+
+.accounts{
+    width: 100%;
+    min-height:350px ;
+    position: relative;
+}
+
+.accounts>div:nth-child(2){
+    margin-top: 20px;
+}
+
+
+.child{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background: #fff;
+    width: 80%;
+    /* height: 80vh; */
+    box-shadow: 1px 1px 9px 0px rgba(39,0,0,0.75);
+    border-radius: 14px;
+}
+
+.left,.right{
+    width: 50%;
+    height: 100%;
+}
+
+.left>img{
+    border-radius: 10px;
+    width: 90%;
+}
+
+
+.right{
+    font-family:'SFProDisplay-Regular' ;
+    padding: 50px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.right>.card{
+    padding: 15px 20px;
+    border-radius: 14px;
+    width: 96%;
+    min-height: 400px;
+    overflow: auto;
+    box-shadow: 1px 1px 9px -5px rgba(39,0,0,0.75);
+   
+}
+
+.right .one{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.one h4{
+    display: block;
+    font-family: 'SFProDisplay-Bold';
+    font-size: 18px;
+    letter-spacing: .2px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.one .selection{
+    outline: none;
+    border: 1px double #d4eaf1;
+    padding:10px 10px;
+    width: 100%;
+    font-family: "SFProDisplay-Regular";
+    font-weight: 600;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+.selection option{
+    font-family: "SFProDisplay-Regular";
+    font-weight: 600;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+
+.btn{
+    position: absolute;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    min-height: 35px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+
+
+
+#nextIco{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../../Assets/Icons/invalid_name.png');
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checking{
+    margin: 20px;
+}
+
+.nameC label{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #000000;
+}
+
+
+
+
+
+@media(max-width:450px){
+
+
+    .mainDiv{
+        align-items: center;
+        justify-content: flex-start;
+        padding: 45px 10px;
+    }
+
+    .mainDiv h2{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+
+    .left{
+        display: none;
+    }
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+
+    .child{
+        width: 95%;
+       padding: 0;  
+    }
+
+    .right>.card{
+        width: 100%;
+    }
+    .right>.card::-webkit-scrollbar{
+        display: none;    
+    }
+
+    .right>.card{
+        padding: 30px 15px;
+    }
+
+}

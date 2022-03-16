@@ -1,0 +1,98 @@
+.mainDiv {
+  background-image: url("../../../../Assets/drawable-xxxhdpi/rectangle.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #f7f7f7;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 10px 10px;
+}
+
+.nav {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+}
+
+.nav > img {
+  width: 10px;
+  margin-right: 15px;
+}
+
+.nav > h6 {
+  font-family: "SFProDisplay-Regular";
+  font-size: 18px;
+  text-align: left;
+  line-height: 21px;
+  color: #ffffff;
+  letter-spacing: 0.02px;
+  font-weight: 500;
+}
+
+.main {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+
+.main label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #525252;
+}
+
+.main input {
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.main select {
+  border: 2px solid #eeeeee;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.workingDetails {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow-x: scroll;
+}
+.workingDetails Table {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+.workingDetails .tableHead {
+  height: 30px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.workingDetails Table td {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(71, 71, 71);
+  height: 30px;
+}
+.total {
+  border-top: 2px solid black;
+}
+
+.button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+.productDetail{
+  margin-top: 5px;
+}

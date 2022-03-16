@@ -1,0 +1,125 @@
+.main{
+    position: absolute;
+    min-width: 280px;
+    height: 640px;
+    color: #fff;
+    background-color: #fff;
+    z-index: 9;
+    right: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    box-shadow: 0 0 2px 0 #808c8c8c;
+}
+
+.head{
+    position: relative;
+    padding: 20px 20px;
+    background-image: url("../../../Assets/drawable-xxxhdpi/rectangle.png");
+    background-position: top;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+    color: rgb(92, 88, 88); 
+    text-align: center;
+    margin-bottom: 10px;
+    /* border: 1px solid #000; */
+}
+
+.head img{
+    width: 13px;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.head h4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.head h5 , .head h6{
+    font-size: 12px;
+}
+
+.head h6{
+    margin-top: 5px;
+}
+
+.cir{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("../../../Assets//drawable-xxxhdpi/adult_business_bussinesman_32976.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.elem1{
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.icon{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 0 #808c8c8c;
+}
+
+.name{
+    font-size: 17px;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.user{
+    width: 25px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ellipse{
+    width: 25px;
+}
+
+.logOut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 10px;
+    /* margin-top: 20px; */
+    /* flex-direction: column; */
+    /* background-color: rgba(209, 209, 209, 0.527); */
+    margin-top: 10px;
+
+}
+
+.logOut h5{
+    text-decoration: underline;
+    font-size: 15px;
+    color: #000;
+}
+
+.logOut img{
+    margin-top: 10px;
+    width: 80px;
+}
+
+

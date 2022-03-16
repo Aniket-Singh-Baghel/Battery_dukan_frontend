@@ -1,0 +1,101 @@
+
+.mainDiv{
+    background-image: url("../../../../Assets/drawable-xxxhdpi/rectangle.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10px 10px;
+}
+
+.nav{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+
+.nav>img{
+    width: 10px;
+    margin-right: 15px;
+}
+
+.nav>h6{
+    font-family: "SFProDisplay-Regular";
+    font-size: 18px;
+    text-align: left;
+    line-height: 21px;
+    color: #ffffff;
+    letter-spacing: 0.02px;
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 90vh;  
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+    background-color: #ffffff;
+}
+
+.card .cardOne{
+    position: relative;
+}
+
+.card .cardOne span{
+    position: absolute;
+    width: 15px;
+    top: 13px;
+    left: 15px;
+}
+
+.card div:nth-child(1) input[type="search"]{
+    border-radius: 20px;
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01px;
+    text-align: left;
+    color: #e6e6fa;
+    padding: 12px 40px;
+    background-color: #dadaeea2;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #000000;
+}
+
+.pallette{
+    padding: 15px 5px;
+    border-bottom: 1px solid #e6e4e4;
+}
+.pallette>img{
+    width: 95px;
+}
+
+.pallette>span{
+    font-family: "SFProDisplay-Regular";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #3ecb5f;
+}
+
+.pallette>span>img{
+    width: 8px;
+    margin-left: 15px;
+}
+

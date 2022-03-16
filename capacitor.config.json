@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "batterydukanionic",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

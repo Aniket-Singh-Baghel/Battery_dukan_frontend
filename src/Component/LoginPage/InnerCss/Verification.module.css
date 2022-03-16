@@ -1,0 +1,86 @@
+.mainDiv{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #6a35ff, #0086ff, #00acff, #00c5ca, #00d690);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+
+.mainDiv>h3{
+    margin-top: -150px;
+    margin-bottom: 20px;
+    font-family: 'SFProDisplay-Bold';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #ffffff;
+}
+
+.mainDiv>section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.11px;
+    color: #97ffffff;
+}
+
+.mainDiv>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.mainDiv>div>input{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width: 35px;
+    height: 44px;
+    border-radius:6.5px;
+    background-color: #1a0505;
+    font-size: 18px;
+    font-family: "SFProDisplay-Bold";
+    color: #ffffff;
+}
+
+
+.mainDiv>div>input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.mainDiv>h4{
+    font-family: "SFProDisplay-Regular";
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.11sp;
+    cursor: pointer;
+}
+
+.mainDiv>h4>img{
+    width: 13px;
+    height: 13px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+@media(min-width:720px){
+ 
+    .mainDiv>div{
+        width: 30%;
+    }
+}
