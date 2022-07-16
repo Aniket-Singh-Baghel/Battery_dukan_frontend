@@ -24,7 +24,7 @@ function Inter1(props) {
 
 	// getting the data to show
 	// const User = useSelector(state => state.auth)
-	const Battery = useSelector(state => state.Batteries.Data)
+	const Battery = useSelector(state => state.Batteries.data)
 	const Category = useSelector(state => state.Category.data)
 	// for the search dispatch
 	const dispatch = useDispatch();
@@ -38,6 +38,7 @@ function Inter1(props) {
 	// if(User){
 	// 	UserDetails = User.users.success[0]
 	// }
+	// console.log(UserDetails);
 
 	useEffect(() => {
 		props.GetBatteryBrand()
@@ -77,20 +78,21 @@ function Inter1(props) {
 		props.history.push("/inner6");
   };
 
-	if (Battery) {
-		byBrand = Battery.map((products, i) => {
-			return (
-				<div
-					key={i}
-					onClick={() => inner6(products.brandName)}
-					className={normals.cone}
-				>
-					<img src={products["brand logo"]} alt="" />
-					<h3>{products.brandName}</h3>
-				</div>
-			);
-		});
-	}
+	  if (Battery) {
+		console.log(Battery);
+		  byBrand = Battery.map((products, i) => {
+			  return (
+				  <div
+					  key={i}
+					  onClick={() => inner6(products.brandName)}
+					  className={normals.cone}
+				  >
+					  <img src={products["brand logo"]} alt="" />
+					  <h3>{products.brandName}</h3>
+				  </div>
+			  );
+		  });
+	  }
 
 	const inner4 = () => {
 		props.history.push("/inner4");
@@ -119,7 +121,7 @@ function Inter1(props) {
 			setPanelState({show:false})
 		}
 	};
-
+	console.log(props);
 	return (
 		<IonContent>
 			<div className={normals.mainDiv}>
@@ -216,10 +218,14 @@ function Inter1(props) {
 						<div className={normals.card}>{byBrand}</div>
 					</div>
 				</div>
+				{/* <div>
+					{kuchh}
+				</div> */}
 			</div>
 		</IonContent>
 	);
 }
+
 
 const mapDispatchToProps = {
 	GetBatteryBrand: GetBatteryBrand,

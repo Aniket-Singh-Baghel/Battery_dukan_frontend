@@ -7,9 +7,9 @@ export const registerUser = (newUser) => dispatch => {
             console.log( success)
             return dispatch(successRegister());
       })
-      .catch(fail => {
-            return dispatch(fail)
-      })
+      // .catch(fail => {
+      //       return dispatch(fail)
+      // })
 }
 
 export const successRegister = (register) => ({
